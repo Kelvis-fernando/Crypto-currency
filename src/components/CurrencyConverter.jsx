@@ -5,16 +5,10 @@ const CurrencyConverter = () => {
     <div className="currency-converter">
       <h2>CurrencyConverter</h2>
       <table className="border-collapse border border-slate-500 ...">
-        <thead>
-          <tr>
-            <th className="border border-slate-600 ...">State</th>
-            <th className="border border-slate-600 ...">City</th>
-          </tr>
-        </thead>
         <tbody>
           <tr>
-            <td className="border border-slate-700 ...">Primary Currency</td>
-            <td className="border border-slate-700 ...">
+            <td>Primary Currency</td>
+            <td>
                 <input 
                     type="number"
                     name="currency-amount-1"
