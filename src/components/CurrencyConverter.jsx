@@ -90,7 +90,7 @@ const CurrencyConverter = () => {
 
       <button onClick={convert}>Convert</button>
 
-      <ExchangeRate />
+      <ExchangeRate exchangeRate={exchangeRate} chosenSecondaryCurrency={chosenSecondaryCurrency} chosenPrimaryCurrency={chosenPrimaryCurrency} />
     </div>
   );
 };
