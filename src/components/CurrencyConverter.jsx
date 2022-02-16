@@ -40,7 +40,7 @@ const CurrencyConverter = () => {
   console.log(exchangeRate);
 
   return (
-    <div className="currency-converter">
+    <div className="currency-converter text-center">
       <h2>CurrencyConverter</h2>
       <table className="border-collapse border border-slate-500 ...">
         <tbody>
