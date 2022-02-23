@@ -37,11 +37,9 @@ const CurrencyConverter = () => {
       });
   };
 
-  console.log(exchangeRate);
-
   return (
-    <div className="currency-converter text-center">
-      <h2>CurrencyConverter</h2>
+    <div className="text-center mt-5">
+      <h1>CurrencyConverter</h1>
       <table>
         <tbody>
           <tr>

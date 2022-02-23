@@ -17,6 +17,10 @@ code {
   width: 60%;
 }
 
+.currency-converter {
+  margin-top: 80px;
+}
+
 .news-feed {
   height: 500px;
   overflow-y: auto;
